@@ -30,17 +30,24 @@ element.style {
 }
 
 
+/*-------STICKY-------*/
+
+.simple-bar.nav-sticky .logo {
+    max-height: 30px;
+    bottom: 0px;
+}
+
+.top-bar.nav-sticky .nav-menu {
+    padding-top: 0px;
+}
+
 /*-------LOGO-------*/
 
 .simple-bar .nav-menu {
 	padding-top: 0;
 }
 
-/*.logo {
-    min-width: 295px !important;
-    min-height: 122px !important;
-    bottom: 0;
-}*/
+
 
 
 
