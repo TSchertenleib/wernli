@@ -12,6 +12,8 @@ h1, h2, h3, h4, h5, h5, h6 {
 		sans-serif;
 }
 
+
+
 /*----------------------------------------------*/
 /*---------------------HOME---------------------*/
 /*----------------------------------------------*/
@@ -71,14 +73,8 @@ element.style {
     font-family: "Assistant", "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 14px;
-    text-transform: uppercase;
     letter-spacing: 0.61px;
     color: #245181;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    transition: all .5s ease;
-    padding-bottom: 40px;
-    display: inline-block;
     line-height: 10px;
 }
 
@@ -90,15 +86,16 @@ element.style {
 /*-------TEXT-------*/
 
 
-.slides li h1 {
-/*    font-size: 36px;*/
+.hero-slider .slides li h1 {
+    font-size: 36px;
     line-height: 49px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     font-weight: 300;
+    margin-top: 100px;
 }
 
 .col-md-6 {
-    width: 70%;
+    width: 100%;
 }
 
 
@@ -106,12 +103,12 @@ element.style {
 /*-------BUTTON-------*/
 
 .middle {
-/*	margin-left: 40%;
-*/
-	width: 100%;
-	text-align: center;
-    m/*argin-top: 30%;*/
+    text-align: center;
+    height: 100%;
+    margin-top: 100px;
 }
+
+
 
 .btn-primary.btn-filled {
 	background: none;
@@ -123,18 +120,16 @@ element.style {
 .btn-primary {
     border-radius: 4px;
     display: inline-block;
-    padding: 14px 28px 13px 28px;
+    padding: 20px 30px 20px 30px;
     line-height: 1;
     border: 2px solid #fff;
 	font-family: 'Assistant', 
 	sans-serif;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
-    float: right;
-
 }
 
 
@@ -150,6 +145,85 @@ element.style {
 
 
 
+
+/*--------------------------------------*/
+/*--------------RESPONSIVE--------------*/
+/*--------------------------------------*/
+
+
+
+
+@media all and (max-width: 767px) {
+
+/*----------------------------------*/
+/*--------------HEADER--------------*/
+/*----------------------------------*/
+
+.simple-bar {
+    position: fixed;
+}
+
+.simple-bar .logo {
+    display: none;
+}
+
+.menu {
+    padding-left: 0px;
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+}
+
+.simple-bar .text-right {
+    text-align: center !important;
+}
+
+.simple-bar .menu li {
+    margin-left: 0px;
+    padding-bottom: 14px;
+
+
+}
+
+.simple-bar .nav-menu {
+    padding-top: 54px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+nav .columns {
+    width: 100%;
+}
+
+/*----------------------------------*/
+/*--------------SLIDER--------------*/
+/*----------------------------------*/
+
+
+.middle {
+    text-align: left;
+    height: 100%;
+    margin-top: 30px;
+}
+
+
+
+.hero-slider .slides li h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    margin-top: 0 !important;
+}
+
+br {
+    display: none;
+}
+
+}
 
 
 
