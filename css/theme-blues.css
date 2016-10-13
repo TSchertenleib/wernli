@@ -3829,7 +3829,10 @@ footer.short-2 .contact-action:hover {
 .simple-bar .logo {
   max-width: 800px;
   max-height: 40px;
+  min-width: 295px !important;
+  min-height: 122px !important;
   bottom: 12px;
+  bottom: 0px;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   transition: all .3s ease;
