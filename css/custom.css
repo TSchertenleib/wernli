@@ -296,27 +296,58 @@ footer {
 
 footer.short ul li {
     float: left;
-    margin-right: 32px;
+    margin-right: 0;
     margin-top: 10px;
 }
 
-.col-sm-10 {
+.short .col-sm-10 {
     width: 100%;
 }
 
 
+.short .col-sm-10 ul {
+    width: 100%;
+    float:  left;
+}
 
 
 
+.short .col-sm-10 li {
+    width: 33.333333%;
+}
+
+.short .col-sm-10 li:nth-child(2) {
+    width: 17%;
+    margin-left: 25%;
+}
 
 
+.short .col-sm-10 li:nth-child(3) {
+    width: 20%;
 
+}
 
 
 
 /*--------------------------------------*/
 /*--------------RESPONSIVE--------------*/
 /*--------------------------------------*/
+@media all and (max-width: 990px) {
+
+
+.short .col-sm-10 li:nth-child(2) {
+    width: 23%;
+    margin-left: 17%;
+}
+
+
+.short .col-sm-10 li:nth-child(3) {
+    width: 26%;
+
+}
+
+}
+
 
 
 
@@ -387,11 +418,48 @@ nav .columns {
     margin-top: 0 !important;
 }
 
-br {
+.container .col-md-6 br {
     display: none;
 }
 
+
+/*----------------------------------*/
+/*--------------FOOTER--------------*/
+/*----------------------------------*/
+
+.short {
+    height: 370px;
 }
+
+
+.short .col-sm-10 li:nth-child(1) {
+    width: 80%;
+    margin-left: 40px;
+    text-align: center;
+}
+
+
+.short .col-sm-10 li:nth-child(2) {
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+
+.short .col-sm-10 li:nth-child(3) {
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+}
+
+
+
 
 
 
