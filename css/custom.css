@@ -183,18 +183,94 @@ element.style {
 /*--------------PAGE CONTENT MIDDLE--------------*/
 /*-----------------------------------------------*/
 
+.titel-zweispaltig {
+    width: 100%;
+    text-align: left;
+}
 
-.container p {
+.col-sm-12 {
+    width: 50%;
+    margin: 0;
+}
+
+
+.hero-devider .slides li h1 {
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    margin-top: 100px;
+}
+
+.hero-devider .slides li h1,
+.hero-devider .slides li p {
+    font-family: 'Assistant', sans-serif;    
+}
+
+.col-md-6 {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------*/
+/*---------------------BLITZSCHUTZ-PAGE---------------------*/
+/*----------------------------------------------------------*/
+
+
+
+/*------------------------------------------*/
+/*--------------PAGE CONTENT----------------*/
+/*------------------------------------------*/
+
+
+
+
+.film p {
     font-family: 'Assistant', sans-serif;
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 1.3;
-    color: #595959;
+    color: #fff;
 }
 
-.blau {
-    color: #245181;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -423,6 +499,29 @@ nav .columns {
 }
 
 
+
+/*----------------------------------*/
+/*--------------VIDEO---------------*/
+/*----------------------------------*/
+
+.overlay:before {
+background-color: #245181;
+}
+
+
+/*-----------------------------------*/
+/*--------------CONTENT--------------*/
+/*-----------------------------------*/
+
+/*-----ZWEISPALTIG-----*/
+
+.zweite-spallte {
+    display: none;
+}
+
+
+
+
 /*----------------------------------*/
 /*--------------FOOTER--------------*/
 /*----------------------------------*/
@@ -455,6 +554,7 @@ nav .columns {
     text-align: center;
 
 }
+
 
 }
 
