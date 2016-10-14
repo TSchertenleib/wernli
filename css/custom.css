@@ -34,10 +34,10 @@ strong {
     height: 100%;
     top: 0px;
     content: '';
-    opacity: 0.9;
+    opacity: 0.5;
     z-index: 3;
-    background-color: #245181 !important;
-    left: 0;
+/*    background-color: #245181 !important;
+*/    left: 0;
 }
 
 
