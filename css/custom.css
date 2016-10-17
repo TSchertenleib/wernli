@@ -254,7 +254,7 @@ element.style {
 
 
 .project .hover-state {
-  background-color: rgba(20, 67, 115, 0.6);
+  background-color: rgba(36, 81, 129, 0.6);
   opacity: 0.9;
 }
 .project:hover .hover-state {
