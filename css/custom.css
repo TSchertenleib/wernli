@@ -42,9 +42,13 @@ strong {
 
 
 
+section:nth-of-type(odd) {
+    background: #fff;
+}
 
-
-
+section:nth-of-type(even) {
+    background: #F8F9FB;
+}
 
 
 /*----------------------------------------------*/
@@ -227,7 +231,9 @@ element.style {
 }
 
 
-
+.weiss {
+    background-color: white!important;
+}
 
 
 
