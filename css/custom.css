@@ -76,6 +76,7 @@ section:nth-of-type(even) {
     letter-spacing: 1px;
     color: #245181;
     cursor: pointer;
+    margin-left: 20px;
 }
 
 
@@ -83,6 +84,8 @@ section:nth-of-type(even) {
     border-bottom: 2px solid #245181;
     border-top: 2px solid #245181;
     font-weight: bold;
+    line-height: 20px;
+    font-size: 15px;
 }
 
 
