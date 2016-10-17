@@ -36,8 +36,7 @@ strong {
     content: '';
     opacity: 0.5;
     z-index: 3;
-/*    background-color: #245181 !important;
-*/    left: 0;
+    left: 0;
 }
 
 
@@ -53,12 +52,19 @@ section:nth-of-type(even) {
 
 
 
+.blau {
+    color: #245181;
+}
 
 
+a {
+    text-decoration: none;
+}
 
 
-
-
+.fett {
+    font-weight: bold;
+}
 
 
 
@@ -338,14 +344,22 @@ element.style {
 
 
 
+/*----------------------------------------------------------*/
+/*---------------------KONTAKT-PAGE-------------------------*/
+/*----------------------------------------------------------*/
 
 
 
+.weiss {
+    background-color: #fff;
+}
 
 
-
-
-
+p.lead {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+}
 
 
 
@@ -471,6 +485,12 @@ footer.short ul li {
 .short .col-sm-10 li:nth-child(3) {
     width: 20%;
 
+}
+
+
+footer.short ul li a {
+    color: #fff;
+    opacity: 1; 
 }
 
 
