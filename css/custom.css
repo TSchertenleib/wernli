@@ -51,6 +51,50 @@ section:nth-of-type(even) {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------*/
+/*---------------------GALLERIES---------------------*/
+/*---------------------------------------------------*/
+
+.filters li {
+    float: left;
+    margin-right: 16px;
+    font-family: 'Assistant', sans-serif;    
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #245181;
+    cursor: pointer;
+}
+
+
+.filters li.active {
+    border-bottom: 2px solid #245181;
+    border-top: 2px solid #245181;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*----------------------------------------------*/
 /*---------------------HOME---------------------*/
 /*----------------------------------------------*/
