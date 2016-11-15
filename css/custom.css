@@ -19,14 +19,18 @@ strong {
     font-weight: 700;
 }
 
+
 h1 strong {
     font-weight: 600;
 }
 
 
+.overlay:before {
+background-color: #245181 !important;
+}
+
 .overlay {
-/*    opacity: 0.8 !important;*/
-    color: #245181 !important;
+background-color: #245181 !important;
 }
 
 
@@ -611,9 +615,12 @@ nav .columns {
 /*----------------------------------*/
 
 .overlay:before {
-background-color: #245181;
+background-color: #245181 !important;
 }
 
+.overlay {
+background-color: #245181 !important;
+}
 
 /*-------------------------------------*/
 /*--------------TITELBILD--------------*/
