@@ -19,6 +19,9 @@ strong {
     font-weight: 700;
 }
 
+h1 strong {
+    font-weight: 600;
+}
 
 
 .overlay {
