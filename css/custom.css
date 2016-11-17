@@ -507,9 +507,25 @@ footer.short ul li a {
 
 
 
+
+
 /*--------------------------------------*/
 /*--------------RESPONSIVE--------------*/
 /*--------------------------------------*/
+@media all and (max-width: 1199px) {
+  .filters {
+    padding: 0px 15px;
+    text-align: center;
+  }
+  .filters li {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+
+
+
 @media all and (max-width: 990px) {
 
 
@@ -680,6 +696,16 @@ background-color: #245181 !important;
 
 }
 
+
+  .filters {
+    padding: 0px 15px;
+    text-align: center;
+  }
+  .filters li {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 8px;
+  }
 
 }
 
