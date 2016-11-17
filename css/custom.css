@@ -80,6 +80,7 @@ a {
 /*---------------------------------------------------*/
 
 .filters li {
+    padding: 10px 30px;
     float: left;
     margin-right: 16px;
     font-family: 'Assistant', sans-serif;    
@@ -88,22 +89,23 @@ a {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #245181;
+    line-height: -10px;
     cursor: pointer;
     margin-left: 20px;
 }
 
 
 .filters li.active {
+    padding: 10px 30px;
     border-bottom: 2px solid #245181;
     border-top: 2px solid #245181;
+    background-color: #245181;
+    /*border-radius: 5px;*/
     font-weight: bold;
-    line-height: 20px;
+
     font-size: 15px;
+    color: white;
 }
-
-
-
-
 
 
 
