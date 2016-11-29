@@ -585,7 +585,7 @@ footer.short ul li a {
 
 
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
 
 /*----------------------------------*/
 /*--------------HEADER--------------*/
@@ -602,11 +602,11 @@ footer.short ul li a {
 .simple-bar .logo-small {
     display: block;
     margin-bottom: 0px;
-    max-width: 165px;
-    max-height: 76px;
-    margin-top: 8px;
+    max-width: 200px;
+    max-height: 83px;
+    margin-top: -10px;
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: -40px;
 }
 
 .menu {
@@ -665,7 +665,9 @@ nav .columns {
     display: none;
 }
 
-
+video {
+    display: none;
+}
 
 /*----------------------------------*/
 /*--------------VIDEO---------------*/
@@ -701,8 +703,19 @@ opacity: 0.9;
     display: none;
 }
 
+/*-----------------------------------*/
+/*--------------Galerie--------------*/
+/*-----------------------------------*/
+
+.column-projects .project .background-image-holder {
+  left: 0px;
+}
 
 
+.project .hover-state {
+    background-color: rgba(11, 60, 77, 0.9);
+    left: 0;
+}
 
 /*----------------------------------*/
 /*--------------FOOTER--------------*/
