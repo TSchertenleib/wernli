@@ -661,10 +661,12 @@ nav .columns {
 
 .overlay:before {
 background-color: #245181 !important;
+opacity: 0.5;
 }
 
 .overlay {
 background-color: #245181 !important;
+opacity: 0.9;
 }
 
 /*-------------------------------------*/
