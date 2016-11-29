@@ -171,7 +171,9 @@ element.style {
 	padding-top: 0;
 }
 
-
+.simple-bar .logo-small {
+    display: none;
+}
 
 
 
@@ -597,6 +599,16 @@ footer.short ul li a {
     display: none;
 }
 
+.simple-bar .logo-small {
+    display: block;
+    margin-bottom: 0px;
+    max-width: 200px;
+    max-height: 76px;
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .menu {
     padding-left: 0px;
     margin-top: 50px;
@@ -617,7 +629,7 @@ footer.short ul li a {
 }
 
 .simple-bar .nav-menu {
-    padding-top: 54px;
+    padding-top: 9px;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
