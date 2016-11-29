@@ -602,9 +602,9 @@ footer.short ul li a {
 .simple-bar .logo-small {
     display: block;
     margin-bottom: 0px;
-    max-width: 200px;
+    max-width: 165px;
     max-height: 76px;
-    margin-top: 2px;
+    margin-top: 8px;
     margin-right: 0px;
     margin-left: 0px;
 }
