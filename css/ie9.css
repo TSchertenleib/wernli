@@ -6,7 +6,7 @@ i:before{ line-height: 1.1 !important; }
 .offscreen-container.reveal-nav{ -ms-transform: translateX(0px); }
 .offscreen-menu .container.reveal-nav{ -ms-transform: translateX(-300px); }
 .offscreen-menu .container{ -ms-transform: translateX(0px); }
-.main-container.reveal-nav{ -ms-transform: translateX(-300px); }
+.main-container.reveal-nav{ -ms-transform: translateX(-600px); }
 
 /** Big Social links hover fix**/
 .social-bar .initial, .social-bar .hover-state{ -ms-transform: translateY(0px); }
